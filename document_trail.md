@@ -17,3 +17,24 @@
 **Tại sao TOP 1?** DOMIN-H dùng AI để "phán xử" tài chính gia đình. Nếu AI sai giá (claim "1 đơn hàng 500K là hợp lý" nhưng thực tế 50K) → phụ huynh mắng oan con → tranh chấp → kiện. Cần chứng minh founder đã biết và đã thông báo giới hạn của AI.
  
 
+**Template `ai_benchmark_results.md`:**
+```markdown
+# AI Performance Report — DOMIN-H Family
+Ngày cập nhật: [ngày]
+Phiên bản AI: Gemini 1.5 Flash
+ 
+## Kết quả test OCR
+- Độ chính xác hóa đơn in rõ: ___%
+- Độ chính xác hóa đơn mờ/chụp nghiêng: ___%
+- Tỷ lệ fallback (yêu cầu xác nhận thủ công): ___%
+ 
+## Kết quả test Thẩm định giá
+- Dataset test: ___ sản phẩm/dịch vụ phổ biến ở HN & HCM
+- Sai lệch trung bình so với giá thực: ___%
+- Edge case fail: [liệt kê cụ thể — VD: "không nhận dạng được giá chợ truyền thống"]
+ 
+## Giới hạn đã biết và đã thông báo cho user
+- [Danh sách các hạn chế được hiển thị trong app UI]
+ 
+## Người phê duyệt: Đỗ Trọng Minh | Ngày: ___
+```
